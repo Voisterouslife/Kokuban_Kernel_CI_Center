@@ -20,5 +20,5 @@
     "anykernel_repo": "https://github.com/Voisterouslife/AnyKernel3.git",
     "anykernel_branch": "pineapple",
     "zip_name_prefix": "S24_kernel"
-  },
+  }
 }
