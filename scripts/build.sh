@@ -84,7 +84,7 @@ done
 if [ -n "$LTO" ]; then ./scripts/config --file out/.config -e LTO_CLANG_${LTO^^} -d LTO_CLANG_THIN -d LTO_CLANG_FULL; fi
 
 # 4. 设置版本号
-FINAL_LOCALVERSION="${LOCALVERSION_BASE}-${VERSION_SUFFIX}"
+FINAL_LOCALVERSION="${LOCALVERSION_BASE}"
 if [ "$VERSION_METHOD" == "file" ]; then
     echo "${FINAL_LOCALVERSION}-g$(git rev-parse --short HEAD)" > ./localversion
     MAKE_ARGS+=""
