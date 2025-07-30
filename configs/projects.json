@@ -4,7 +4,7 @@
     "defconfig": "pineapple_gki_defconfig",
     "localversion_base": "-android14-Kokuban-Elysia-BYEC",
     "lto": "",
-    "supported_ksu": ["sukisuultra", "mksu", "ksu"],
+    "supported_ksu": ["sukisuultra"],
     "toolchain_urls": [
       "https://github.com/YuzakiKokuban/android_kernel_samsung_sm8650/releases/download/toolchain/toolchainS24.tar.gz.00",
       "https://github.com/YuzakiKokuban/android_kernel_samsung_sm8650/releases/download/toolchain/toolchainS24.tar.gz.01"
