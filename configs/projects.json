@@ -27,7 +27,7 @@
     "anykernel_branch": "pineapple",
     "zip_name_prefix": "S24_kernel",
     "push_server": {
-      "enabled": true,
+      "enabled": false,
       "webhook_url": "http://74.176.37.71:8080/webhook"
     }
   }
