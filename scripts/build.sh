@@ -111,7 +111,7 @@ else
 fi
 
 # 4. 设置版本号
-FINAL_LOCALVERSION="${LOCALVERSION_BASE}-${VERSION_SUFFIX}"
+FINAL_LOCALVERSION="${LOCALVERSION_BASE}"
 if [ "$VERSION_METHOD" == "file" ]; then
     echo "${FINAL_LOCALVERSION}-g$(git rev-parse --short HEAD)" > ./localversion
     # 当使用文件方法时，不应将 LOCALVERSION 传递给 make
